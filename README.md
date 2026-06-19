@@ -25,10 +25,10 @@ CSV documentation is usually hard to learn from public examples because real pac
 Use it to:
 
 - understand what a full CSV lifecycle can look like
-- study traceability between requirements, risks, tests, deviations, SOPs, and retirement records
+- study traceability between requirements, risks, verification records, deviations, SOPs, and retirement records
 - bootstrap internal discussions about validation deliverables
 - compare your own templates against a complete fictional example
-- generate Word files from Markdown for review or adaptation
+- review both Markdown and Word versions of the same example package
 
 ## Included Documents
 
@@ -55,15 +55,7 @@ CSV108/
 
 CSV108_docx/
   001_...docx through 108_...docx
-  Word versions generated from the Markdown source.
-
-tools/
-  convert_csv108_markdown_to_docx.py
-  Markdown to DOCX converter with pharma-style controlled-document formatting.
-
-tests/
-  test_csv108_markdown_to_docx.py
-  Parser and DOCX structure checks.
+  Polished Word versions of the same documents.
 ```
 
 ## Quick Start
@@ -86,51 +78,6 @@ Or read/edit the Markdown sources:
 ```text
 CSV108/
 ```
-
-## Regenerate The DOCX Files
-
-Install Python dependencies if needed:
-
-```bash
-pip install python-docx
-```
-
-Convert all Markdown files into Word:
-
-```bash
-python tools/convert_csv108_markdown_to_docx.py --fix-known-markdown-issues
-```
-
-The default output folder is:
-
-```text
-CSV108_docx/
-```
-
-The converter intentionally stops on malformed Markdown tables unless `--fix-known-markdown-issues` is used. This prevents bad source tables from silently becoming bad Word files.
-
-## Validate The Package
-
-Run the tests:
-
-```bash
-python -m unittest discover -s tests -p "test_*.py" -v
-```
-
-Expected result:
-
-```text
-Ran 4 tests
-OK
-```
-
-Useful manual checks:
-
-```bash
-python tools/convert_csv108_markdown_to_docx.py --fix-known-markdown-issues
-```
-
-Then confirm that `CSV108_docx/` contains 108 `.docx` files.
 
 ## Privacy And Fictional Data
 
