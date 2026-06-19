@@ -81,6 +81,16 @@ This specification defines regulated calculations and controlled outputs. Analyt
 
 Controlled reports show record ID, template/version, generation time, page x of y and signature manifestation. PDF/print/export shall not truncate values or omit context. Ad hoc extracts retain requester and query criteria.
 
+Calculation and report verification shall use independent expected results, including boundary, rounding, unit-conversion and invalid-input cases. Report output verification shall compare displayed values, hidden metadata, pagination, filters, sorting, export format and signature manifestation against the approved source record.
+
+| Verification focus | Minimum evidence |
+|---|---|
+| Formula correctness | Independent calculation workbook or script output retained as evidence |
+| Boundary behavior | Values at and around specification limits are challenged |
+| Unit/rounding control | Source precision, conversion rule and final display are verified |
+| Report completeness | Required fields, signatures, exceptions and audit-review status are present |
+| Export/print fidelity | PDF/CSV/print output matches source values and does not truncate context |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

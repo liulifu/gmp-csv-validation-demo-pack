@@ -101,6 +101,15 @@ Result correction; transcription correction; instrument retransmission; unit cor
 
 The production baseline package is `QCL-PROD-BL-1.0`, checksum recorded in Document 077. Any parameter change after go-live requires change control, impact assessment and regression evidence.
 
+Configuration items are risk classified before baseline approval. Critical items include role permissions, workflow state transitions, calculation/report logic, audit trail settings, e-signature meanings, interface mappings, retention settings and archive/export behavior. Critical item changes require QA review and targeted regression evidence even when implemented through standard administration screens.
+
+| Configuration class | Change-control expectation |
+|---|---|
+| Critical GxP control | Formal change, risk assessment, independent review and regression evidence |
+| Business workflow parameter | BPO approval, test evidence and training/SOP impact check |
+| Operational/support parameter | System Owner approval and monitoring/backup/security impact check |
+| Cosmetic/non-GxP label | Documented rationale and verification that regulated meaning is not altered |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

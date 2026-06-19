@@ -80,6 +80,16 @@ DEV-003 addressed duplicate eQMS case creation during retry. Connector 1.4.1 int
 
 Interfaces preserve required values/context, detect failures and reconcile to zero unexplained messages. Interface controls are acceptable.
 
+Interface acceptance requires both value correctness and transaction-control correctness. Passing status is valid only when successful messages, rejected messages, retry/reprocess events and reconciliation totals are all explainable. Any unexplained mismatch, duplicate regulated record or lost approved source result is release blocking until resolved or formally risk accepted by QA.
+
+| Interface evidence focus | Acceptance expectation |
+|---|---|
+| Value transfer | Required fields, units, status and source context match source system |
+| Failure detection | Invalid message is rejected with clear error and no partial record |
+| Retry/idempotency | Retry does not create duplicate case/sample/result |
+| Reconciliation | Sent/received/accepted/rejected/outstanding totals reconcile |
+| Manual intervention | Reprocess or correction has reason, owner and audit trail |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

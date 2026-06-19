@@ -91,6 +91,16 @@ Severity, probability and detectability are scored 1–5. Controls are assigned 
 
 After verified controls, no risk remains High. FRA-016, FRA-019, FRA-024, FRA-028 and FRA-030 are expected to reduce to Medium because consequences remain severe but probability/detectability are improved. Medium residual risks are accepted by QA and the Business/System Owner in the VSR.
 
+Residual-risk reduction shall be evidence based. A risk may be reduced only when the specified control is implemented, verified and linked in the RTM. If a control fails testing, is deferred, or is replaced by a procedural workaround, the residual score shall be reassessed and the VSR shall document the impact on intended use.
+
+| Residual-risk decision | Required support |
+|---|---|
+| Reduce to Low | Preventive/detective control verified and no severe consequence remains credible |
+| Reduce to Medium | Severe consequence remains possible but probability/detection is controlled |
+| Keep High | Control not verified or unacceptable data/product quality risk remains |
+| Accept Medium | QA plus Business/System Owner acceptance in VSR |
+| Reopen risk | Defect, deviation, change or incident invalidates control assumption |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

@@ -47,6 +47,8 @@ approved_by: "QA Validation Manager"
 
 Components are classified by their role and complexity. Industry categories are used as a planning aid, not as a substitute for GxP risk assessment.
 
+Classification considers whether the component is standard infrastructure, configured commercial software, custom software, configured content, peripheral hardware or user-developed application. Criticality considers the worst credible impact on product quality, patient safety, data integrity, record availability and business continuity if the component fails or is misused.
+
 ## 2. Classification results
 
 | Component | Classification | Configuration/customisation | Criticality | Validation implication |
@@ -67,7 +69,22 @@ The application is business-critical and data-integrity-critical. An incorrect r
 
 Use a full risk-based lifecycle. Supplier standard tests may be leveraged for non-site-specific product functions. All site configuration, interfaces, calculations, roles, audit trails, signatures, migration and representative business processes require company-controlled verification.
 
-## 5. Related documents
+## 5. Validation depth matrix
+
+| Component type | Minimum company-controlled evidence |
+|---|---|
+| Configurable commercial application | Intended use, URS, configuration specification, risk assessment, OQ/PQ, traceability and VSR |
+| Custom interface or transformation | Design specification, source/change control, code review, unit evidence, interface challenge and reconciliation |
+| Configured calculation/report | Approved logic, independent calculation check, boundary/negative testing and regression coverage |
+| Qualified infrastructure | Installation/configuration baseline, security hardening, monitoring, backup/restore and DR evidence |
+| Peripheral/device integration | Installation check, device mapping, data-capture challenge and exception handling |
+| User-developed application replacement | Inventory assessment, migration/retirement decision and evidence that uncontrolled use has stopped |
+
+## 6. Supplier evidence leveraging limits
+
+Supplier evidence may reduce duplicate testing for standard product functions only when version, configuration relevance, test independence, defect status and traceability are acceptable. It shall not replace site verification of intended use, site configuration, role/access design, interfaces, migrations, regulated reports, electronic signatures, audit trails or SOP-based business processes.
+
+## 7. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

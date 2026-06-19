@@ -70,6 +70,15 @@ This register identifies controlled software, configuration, code, templates and
 
 Any change to a listed item requires approved change control, version update, impact assessment and verification. Emergency security changes may use the emergency procedure but must be retrospectively documented within one business day.
 
+Configuration items are grouped by validation impact. Critical items influence regulated records, calculations, audit trails, signatures, access, interfaces, migration, backup/recovery or retention. Supporting items influence operation or monitoring. Informational items document context but do not alter GxP behavior. The impact group drives approval and regression expectations.
+
+| Item impact group | Change expectation |
+|---|---|
+| Critical GxP | QA-reviewed impact assessment and targeted regression before release |
+| Supporting validated state | System Owner approval and operational verification |
+| Infrastructure dependency | IT owner approval and qualification/monitoring evidence |
+| Informational | Version/update record with no regression unless linked impact is identified |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

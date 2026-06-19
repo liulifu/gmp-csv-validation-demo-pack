@@ -97,6 +97,16 @@ Every regulated record package preserves unique ID, creator/source, creation and
 
 Null mandatory values, invalid codes, unsupported units, broken relationships, duplicate business keys and checksum mismatch are rejected or quarantined. Corrections never overwrite the original history.
 
+Data ownership is assigned at the point where the record becomes authoritative. The official source must be clear before mapping, migration, interface design or report verification is approved. When data are copied between systems, QCLabOne shall retain enough source context to reconstruct provenance without making itself the official source for records that remain in SAP, CDS/SDMS or eQMS.
+
+| Data governance rule | Evidence expectation |
+|---|---|
+| Official source defined | Data dictionary identifies source system and QCLabOne responsibility |
+| Provenance retained | Source ID, version, timestamp and transfer context are retained where applicable |
+| Metadata completeness | Record package includes status, signatures, audit trail and related IDs |
+| Data quality exception | Quarantine/rejection record has owner, reason and disposition |
+| Retention category | Record type maps to archive/export and retention controls |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

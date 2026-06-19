@@ -70,6 +70,16 @@ This specification defines the electronic-signature controls used for GMP submis
 
 Before access, each user completes training acknowledging that the electronic signature is legally and procedurally equivalent to their handwritten signature for authorised company records.
 
+Signature meaning shall be specific enough to distinguish submission, review, approval, QA approval, rejection, invalidation and retirement acceptance. A signature shall not be applied silently by workflow automation. Where a service account advances workflow status, the action shall be attributable to the approved service and shall not replace a required human signature.
+
+| Signature control | Verification focus |
+|---|---|
+| Re-authentication | User must provide approved credential/strong authentication at signing |
+| Manifestation | Printed/electronic view shows signer, date/time and meaning |
+| Record binding | Signature is linked to record ID/version and cannot be copied |
+| Post-signature change | Affected approval is invalidated and routed for re-review |
+| Accountability training | User acknowledgement is complete before signature privilege |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

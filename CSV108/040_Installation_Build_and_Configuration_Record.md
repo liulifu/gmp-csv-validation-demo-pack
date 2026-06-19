@@ -72,6 +72,16 @@ Deployment used supplier-signed packages and company-approved configuration. Che
 
 No open build exception remains. The barcode driver issue detected at SAT is recorded as DEF-006 and closed before IQ completion.
 
+Build evidence shall allow an independent reviewer to reconstruct what was installed, where, by whom, from which approved package and with which checksum. Any difference between the design specification, installation package and installed state shall be logged as an exception or change record before formal qualification continues.
+
+| Build evidence area | Required record |
+|---|---|
+| Software package | Supplier signature, checksum and approved version |
+| Environment | Tenant/server identifier, network zone and qualification reference |
+| Configuration import | Package ID, checksum, importer and verification result |
+| Account/security setup | Approved admin/service accounts and hardening evidence |
+| Post-build readiness | Smoke test, monitoring status and backup inclusion |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

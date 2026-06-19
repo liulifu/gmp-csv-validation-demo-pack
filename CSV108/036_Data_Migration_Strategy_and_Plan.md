@@ -83,6 +83,16 @@ Move active/required legacy data into QCLabOne and retain remaining historical r
 
 Extraction uses read-only accounts and encrypted transfer. Source backups are retained. Production source is frozen during final migration except approved emergency transactions, which are separately reconciled.
 
+Each trial migration has a formal entry and exit decision. Trial 1 validates technical extraction/loading and identifies profiling issues. Trial 2 validates approved mapping, cleansing rules and reconciliation approach. Final migration may start only after open critical/high exceptions are closed, source freeze is confirmed, rollback criteria are agreed and business owners accept residual migration risk.
+
+| Migration gate | Exit evidence |
+|---|---|
+| Profiling complete | Source counts, data-quality issues and mapping gaps documented |
+| Trial migration 1 | Load path proven and major technical issues logged |
+| Trial migration 2 | Mapping baseline, reconciliation report and exception disposition accepted |
+| Final migration readiness | Freeze plan, rollback plan, trained team and approval to proceed |
+| Post-migration acceptance | Counts, critical fields, relationships, attachments and retrieval accepted |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

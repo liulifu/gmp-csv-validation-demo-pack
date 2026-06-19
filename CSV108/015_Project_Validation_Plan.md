@@ -98,6 +98,16 @@ PRA and DIRA establish early controls. FRA links functional hazards to URS and v
 
 Design baseline: 2026-10-31; FAT: 2027-01-25; SAT: 2027-02-20; IQ/OQ/PQ: 2027-03-01 to 2027-04-30; VSR: 2027-06-05; go-live: 2027-06-15.
 
+Gate review shall include deliverable status, traceability coverage, open risks, deviations, defects, supplier actions, training readiness, environment readiness and data-migration status. Conditional gate approval is permitted only when the condition does not allow unvalidated regulated use and has a named owner, due date and QA-approved impact statement.
+
+| Gate decision input | Acceptance expectation |
+|---|---|
+| Deliverable completeness | Required records are approved or have QA-approved deferral rationale |
+| Traceability | High-risk URS/risk controls have planned or completed verification coverage |
+| Test readiness | Environment, data, scripts and trained executors are approved before execution |
+| Release readiness | VSR, SOPs, training, migration, support and baseline are complete |
+| Residual risk | No unacceptable residual GxP or data-integrity risk remains |
+
 ## 9. Related documents
 
 | Relationship | Document ID | Document |

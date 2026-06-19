@@ -73,11 +73,31 @@ approved_by: "QA Validation Manager"
 | Backup and archive | Indirect but critical | Qualification, restore and retrievability testing |
 | Barcode peripherals | Supporting | Installation and functional verification |
 
-## 4. Required controls
+## 4. Impact rationale by regulated concern
+
+| Regulated concern | Impact level | Evidence basis |
+|---|---|---|
+| Patient safety | Indirect high | Incorrect QC status could support release of nonconforming material or delay investigation |
+| Product quality | Direct high | The system controls sample testing, calculations, specification checks and result approval |
+| Data integrity | Direct high | Electronic records, audit trails, e-signatures, interfaces and migrations are in scope |
+| Record availability | High | Records are required for batch support, stability review, investigations and inspections |
+| Business continuity | High support | Extended outage delays QC disposition and may require approved contingency processing |
+
+## 5. Screening decision rules
+
+| Screening outcome | Validation expectation |
+|---|---|
+| Any direct GMP record creation/modification | System-specific validation and traceability are required |
+| Any automated calculation or acceptance decision | Specification, independent verification and challenge testing are required |
+| Any regulated electronic signature | Part 11/Annex 11 assessment and e-signature testing are required |
+| Any GxP interface or migration | Mapping, reconciliation, exception handling and interface/migration tests are required |
+| Only administrative/non-regulated use | Documented exclusion and basic IT controls may be sufficient |
+
+## 6. Required controls
 
 URS, risk assessment, supplier qualification, design/configuration, traceability, IQ/OQ/PQ, interface/migration/security/audit/e-signature/backup tests, VSR, SOP/training, operational review and controlled retirement are required.
 
-## 5. Related documents
+## 7. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

@@ -102,6 +102,21 @@ This matrix defines lifecycle accountability. Each activity has one and only one
 - Records Management is accountable for archive acceptance.
 - Emergency actions may be taken to protect product, data or continuity, but must be documented and entered into deviation/change control within one business day.
 
+### 4.1 Approval authority boundaries
+
+| Decision | Accountable approval | Additional required concurrence |
+|---|---|---|
+| Validation strategy and residual GxP risk | QA Validation Manager | System Owner and BPO for feasibility and intended use |
+| Business process acceptance | QC Business Process Owner | QA when the decision affects regulated records or release criteria |
+| Production configuration baseline | System Owner | QA and IT for validated state, security and recoverability |
+| Supplier evidence leveraging | QA Validation Manager | CSV Lead and System Owner for relevance and completeness |
+| Archive acceptance and retrievability | Records Management Owner | QA and Legacy System Owner |
+| Emergency production workaround | System Owner | QA acknowledgement and deviation/change control closure |
+
+### 4.2 Delegation and segregation rules
+
+Delegation is permitted only to trained personnel with documented authority and shall not transfer accountability. A person who configures a critical workflow, role, calculation or report shall not be the sole approver of its release evidence. Supplier personnel may prepare or execute agreed activities, but final GxP acceptance remains with the company. Conflicts between schedule, business preference and quality risk are escalated to the Steering Committee with QA's position recorded.
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

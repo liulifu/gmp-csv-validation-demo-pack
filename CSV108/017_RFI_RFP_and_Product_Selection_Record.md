@@ -78,6 +78,16 @@ LabSphere demonstrated SAP sample intake, LES sequence enforcement, CDS approved
 
 LabSphere Technologies Ltd. was selected on 2026-04-15, subject to supplier audit closure and execution of the quality/technical agreement. No product was selected solely on commercial score.
 
+The selection score was not based on feature count alone. Mandatory compliance requirements were pass/fail; weighted scoring was applied only after mandatory items were met. Demonstrated audit-trail usability, supplier SDLC maturity, data-export capability, interface robustness and local support model were treated as critical differentiators.
+
+| Evaluation dimension | Weighting approach |
+|---|---|
+| Mandatory GxP controls | Pass/fail; failure excludes product from award |
+| Functional fit | Weighted against QC chemistry, microbiology, stability and LES workflows |
+| Technical fit | Weighted against interfaces, cloud model, security and data export |
+| Supplier maturity | Weighted using audit evidence, references, SDLC and support history |
+| Lifecycle cost/risk | Weighted using implementation effort, customisation burden and retirement complexity |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

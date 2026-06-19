@@ -128,6 +128,16 @@ This initial matrix confirms that every approved URS has a risk/design/test path
 
 Changes to URS, risk, specification or test scope require matrix update. The final matrix records actual result and deviation references and is approved before the VSR.
 
+Traceability is considered complete only when a reviewer can navigate from intended use to requirement, risk/control, design/configuration and verification evidence. Where a requirement is satisfied by supplier evidence or SOP/training rather than a company-executed test, the rationale and evidence reference shall be explicit.
+
+| Traceability gap | Required disposition |
+|---|---|
+| Must URS without verification | Add test/evidence or justify non-test evidence before release |
+| High risk without control evidence | Block release until verified or formally accepted as residual risk |
+| Failed test with retest | Link defect/deviation, correction and passing retest evidence |
+| Requirement changed after scripts approved | Impact scripts, test data, design and executed evidence |
+| Supplier evidence used | Link leveraging decision and confirm site-specific coverage remains |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

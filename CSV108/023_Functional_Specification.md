@@ -108,6 +108,16 @@ This specification describes the functional behaviour that will satisfy the appr
 - Routine users cannot delete GxP records or audit trails.
 - Application errors display a user-safe message and create diagnostic logs without exposing secrets.
 
+Cross-cutting exception behavior shall be consistent across modules. When a required prerequisite is missing, the system shall prevent completion, identify the missing condition and retain the attempted action where required for auditability. When a technical fault occurs, the system shall avoid partial regulated records and route recoverable items to an exception queue with owner, timestamp and disposition.
+
+| Functional rule type | Verification focus |
+|---|---|
+| Workflow prerequisite | Negative test confirms blocked action and clear reason |
+| Historical version use | Completed records retain the approved effective version |
+| Exception queue | Failed transactions are visible, attributable and dispositioned |
+| Signature invalidation | Post-signature change forces re-review and re-signature |
+| Error handling | User message is safe and diagnostic log supports investigation |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

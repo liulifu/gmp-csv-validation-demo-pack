@@ -71,6 +71,15 @@ Severity (S), probability (P) and detectability (D) are scored 1–5. RPN = S ×
 
 High risks require explicit URS and verification coverage. Medium risks require documented controls and testing where the control is automated or critical. Low risks may be managed by standard procedures and supplier/infrastructure evidence. Residual risk will be reassessed in the FRA and VSR.
 
+Risk response owners shall confirm that each planned control is represented in at least one downstream deliverable. Where a control is procedural rather than automated, the associated SOP, training record and periodic review evidence shall be identified. Any risk that remains High after design mitigation requires QA acceptance before verification exit.
+
+| Preliminary rating | Minimum downstream evidence |
+|---|---|
+| High | URS link, design/configuration control, scripted challenge test and residual-risk disposition |
+| Medium | Documented control, targeted verification or justified supplier/procedural evidence |
+| Low | Standard operating control, owner acceptance and periodic review where applicable |
+| New or changed risk | Change impact assessment and update to PRA/FRA/RTM before release decision |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

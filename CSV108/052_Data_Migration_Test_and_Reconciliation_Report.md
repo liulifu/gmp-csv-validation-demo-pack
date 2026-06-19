@@ -70,6 +70,16 @@ DEV-002 covered unsupported filename characters. Storage names were normalized w
 
 Migration tooling and mappings are acceptable for production execution using the approved plan and version `MAP-2.3`.
 
+Migration test acceptance confirms that the tool, mapping and reconciliation method are suitable for final migration; it does not itself approve production cutover. The final migration shall repeat required count, critical-field, attachment, relationship and retrieval checks using the frozen source population and shall disposition every exception before go-live.
+
+| Migration evidence focus | Acceptance expectation |
+|---|---|
+| Population control | Source extract count and selection criteria are approved |
+| Critical field check | 100% match or approved exception for active critical records |
+| Sampling | Sample design covers record type, age, status and source variation |
+| Attachment integrity | Count and hash reconciliation confirm binary content unchanged |
+| Exception disposition | Business/QA disposition exists for every unresolved mismatch |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

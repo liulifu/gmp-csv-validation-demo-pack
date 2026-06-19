@@ -80,6 +80,16 @@ Server build follows approved CIS-aligned baseline. EDR, patching, logging, back
 
 Initial design supports 200 concurrent users, 10,000 interface messages/hour, 5 TB attachment growth over five years and 30% headroom. Alert thresholds are 70% warning and 85% critical for capacity resources.
 
+Infrastructure qualification shall confirm both build correctness and operational readiness. Evidence shall show that hardening, monitoring, backup agent, time synchronization, log forwarding, vulnerability scanning and support access are active before application validation execution begins. Any shared service leveraged from corporate IT shall have an owner, qualification reference and support escalation path.
+
+| Infrastructure control | Qualification or operating evidence |
+|---|---|
+| Server/platform baseline | Build record, hardening checklist and approved version register |
+| Network/security boundary | Firewall rule review, certificate inventory and connection test |
+| Monitoring/logging | Alert list, log-retention setting and test alert evidence |
+| Backup/restore dependency | Backup job evidence and restore-test linkage |
+| Capacity control | Baseline utilisation, alert thresholds and growth review trigger |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

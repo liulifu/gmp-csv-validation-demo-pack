@@ -74,6 +74,16 @@ TLS 1.2 or higher; encryption at rest; corporate SSO; MFA for privileged/vendor 
 
 The privacy impact is low after minimisation and access controls. Employee transparency is provided through the company privacy notice. Export of user activity is limited to legitimate quality, security and investigation purposes.
 
+Security controls shall remain aligned with the validated state. A cybersecurity event is GxP-relevant when it could affect regulated data confidentiality, integrity, availability, auditability, electronic signatures, record retrieval or validated configuration. Privacy review shall be repeated before adding new personal-data fields, external support access paths or cross-border data processing.
+
+| Monitoring area | Required operating evidence |
+|---|---|
+| Privileged/vendor access | Approved access window, session log and post-session review |
+| Vulnerability management | Critical/high vulnerability assessment, patch decision and change record |
+| Security event review | SIEM alert disposition and GxP impact assessment where relevant |
+| Certificate/key management | Expiry inventory, renewal change and successful interface test |
+| Privacy minimisation | Approved user-data fields and access/export justification |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

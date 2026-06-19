@@ -136,6 +136,16 @@ GEN—general; SMP—sample management; SPEC—specification/master data; LES—
 
 After approval, changes require documented rationale, impact on risk/design/test/training/migration, version update and approval by the Business Process Owner with QA review.
 
+Requirement quality is checked before approval. Each Must requirement shall be uniquely identified, testable, unambiguous, traceable to intended use or risk, and assigned to a verification approach. Requirements that describe a policy expectation rather than system behavior shall identify the supporting SOP, training or operational evidence.
+
+| Requirement quality check | Acceptance expectation |
+|---|---|
+| Testability | A reviewer can identify objective evidence for pass/fail or acceptance |
+| Traceability | Link exists to intended use, process control, risk, regulation or business need |
+| Role clarity | The affected role or system actor is clear where user action is involved |
+| Data boundary | Official source, retention or interface boundary is clear where data are exchanged |
+| Change impact | Downstream FS, configuration, test script and RTM updates can be identified |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

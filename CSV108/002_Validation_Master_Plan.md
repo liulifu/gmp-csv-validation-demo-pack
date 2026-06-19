@@ -71,6 +71,16 @@ The Site Quality Head owns the validation governance model. Process Owners are a
 6. Periodic review frequency is risk-based, normally annual for high GxP systems and every two years for medium-impact systems.
 7. Significant change, repeated incident, supplier change or adverse trend may trigger revalidation.
 
+Portfolio priority is assigned using GxP impact, patient/product risk, data criticality, regulatory commitment, business continuity tier, change complexity and inspection exposure. The CSV Program Lead maintains the ranked backlog and escalates any overdue high-impact system remediation to the Site Quality Council.
+
+| Planning control | Minimum expectation |
+|---|---|
+| Validation strategy rationale | Documents why the selected lifecycle depth is adequate for intended use and risk |
+| Supplier leveraging | Identifies which supplier records are reusable, which require site challenge and which are not accepted |
+| Infrastructure dependency | Confirms qualified services, monitoring, backup, restore and security ownership before application release |
+| Data integrity planning | Covers audit trail, e-signature, record retention, migration, archive and inspection retrieval where applicable |
+| Deferred work | Requires QA-approved risk assessment, owner, due date and release impact statement |
+
 ## 5. 2026–2028 site validation programme
 
 | Programme item | Owner | Target | Planned evidence |
@@ -84,6 +94,8 @@ The Site Quality Head owns the validation governance model. Process Owners are a
 ## 6. Validation status reporting
 
 Monthly status reports shall show planned/actual deliverables, overdue approvals, open high risks, test progress, defect/deviation ageing, training readiness and release risks. Quality escalation is required for any critical finding, unapproved production change, data loss or risk to record integrity.
+
+The standard dashboard shall include green/amber/red status for deliverables, validation deviations, supplier actions, migration readiness, training, open change controls, environment readiness and release decision blockers. Amber items require a recovery owner and date. Red items require Steering Committee review and QA acknowledgement before the next lifecycle gate.
 
 ## 7. Acceptance metrics
 

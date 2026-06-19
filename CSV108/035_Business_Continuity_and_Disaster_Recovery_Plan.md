@@ -74,6 +74,16 @@ Activation requires credible inability to restore primary service within RTO or 
 
 Annual technical DR exercise and annual business-continuity tabletop; additional exercise after material architecture change or failed recovery.
 
+Manual continuity records are controlled GMP originals until reconciled into QCLabOne or linked to the electronic record. After restoration, the System Owner and BPO shall reconcile issued forms, electronic entries, interface messages and sample status before routine processing resumes. Any unreconciled item is managed as an incident/deviation with QA disposition.
+
+| Continuity control | Exit evidence |
+|---|---|
+| Form issuance | Pre-numbered form log reconciled to returned forms |
+| Manual result entry | Independent verification and reason for manual entry |
+| Interface downtime | Backlog processed or dispositioned with source/target counts |
+| Business decision hold | Affected samples/batches identified and released from hold only after review |
+| DR return | Health checks, retrieval checks and QA/business approval retained |
+
 ## 7. Related documents
 
 | Relationship | Document ID | Document |

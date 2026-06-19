@@ -74,6 +74,8 @@ Out of scope: analytical-method validation, core validation of SAP/eQMS/CDS, rep
 | Supplier services | Configuration, integrations, migration tooling, validation evidence and hypercare |
 | Contingency | 10% of approved implementation budget |
 
+The approved business case assumes measurable reduction in manual transcription, faster QC record retrieval, retirement of uncontrolled spreadsheet calculations, and lower inspection-response effort. Benefits shall be baselined before UAT and rechecked after six months of routine use. Compliance benefits are measured through audit-trail review effectiveness, deviation trends, record-retrieval performance and closure of legacy spreadsheet remediation actions.
+
 ## 5. Milestones
 
 | Milestone | Target date |
@@ -98,9 +100,13 @@ Out of scope: analytical-method validation, core validation of SAP/eQMS/CDS, rep
 | Supplier cloud change | Quality agreement requires notice and impact assessment |
 | User readiness | Role-based training, UAT and floor support during hypercare |
 
+Critical dependencies include timely supplier audit closure, availability of QC subject-matter experts for design workshops and PQ, stable SAP/eQMS/CDS interface specifications, qualified production infrastructure, approved data-migration rules and completion of role-based SOP training. Any dependency that threatens validation release is escalated through the Steering Committee and recorded in the project risk log.
+
 ## 7. Governance and authority
 
 The Project Sponsor authorises funding. The Steering Committee resolves schedule or scope conflicts. The BPO accepts business process suitability. QA independently accepts validation conclusions. The charter does not authorise production use.
+
+Scope, budget or timeline changes that affect intended use, GxP controls, official record boundaries, migration population, interface commitments or go-live readiness require documented impact assessment before approval. Production use may be authorised only by the Go-Live and Production Release Approval after VSR approval and readiness checks.
 
 ## 8. Related documents
 

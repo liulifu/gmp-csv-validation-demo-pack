@@ -67,6 +67,15 @@ Quality manual; organisation chart; training matrix; SDLC procedures; sample req
 
 Supplier qualification is approved after CAPA closure. The site will maintain annual performance review and may re-audit after significant ownership, hosting, QMS or adverse compliance change.
 
+CAPA effectiveness shall be checked against objective evidence rather than supplier statement alone. Evidence may include revised procedures, completed training, sample defect records, updated traceability reports or demonstration during a follow-up meeting. Any CAPA that weakens confidence in leveraged testing shall be reflected in the Supplier Documentation Leveraging Assessment.
+
+| Finding class | Project impact rule |
+|---|---|
+| Critical | Supplier cannot be qualified until contained and QA disposition is approved |
+| Major | Qualification may proceed with CAPA, owner, due date and affected evidence review |
+| Minor | Track to closure through supplier oversight; no release block unless repeated |
+| Observation | Consider for improvement and periodic supplier review |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

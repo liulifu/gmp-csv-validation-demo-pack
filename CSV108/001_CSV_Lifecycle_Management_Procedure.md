@@ -111,6 +111,14 @@ The System Owner shall maintain the validated state through controlled access, a
 
 Retirement shall be planned before disabling the system. Required records, metadata, audit trails, attachments and signatures shall remain readable, retrievable and protected for the retention period. Access and interfaces may be removed only after archive acceptance and business/quality approval.
 
+### 5.9 Exceptions, deviations and temporary controls
+
+Any departure from this procedure shall be documented before execution where practical, or within one business day for urgent actions taken to protect product, patient, data or business continuity. The record shall describe the affected system, regulated process, records at risk, interim control, owner, due date and QA disposition. Temporary manual controls may be used only when they are approved, traceable to affected records and reconciled after system restoration.
+
+### 5.10 Traceability and evidence standards
+
+Lifecycle evidence shall be attributable, legible, contemporaneous, original or certified copy, accurate, complete, consistent, enduring and available. Requirements, risks, design/configuration items and verification evidence shall be linked sufficiently for an independent reviewer to reconstruct why a control was required, how it was implemented and how it was verified. Supplier evidence may support but shall not replace site acceptance of intended use.
+
 ## 6. Lifecycle gates
 
 | Gate | Minimum entry criteria | Exit decision |
@@ -122,6 +130,8 @@ Retirement shall be planned before disabling the system. Required records, metad
 | G4 — Release | VSR, training, SOPs, migration and support ready | Quality release to production |
 | G5 — Operate | Approved baseline and operational controls | Validated state confirmed by periodic review |
 | G6 — Retire | Approved archive and retirement plan | System decommissioned; records remain available |
+
+Gate approval shall cite the current deliverable list, unresolved deviations, open risks, accepted residual risks and any deferred activities. A gate may be conditionally passed only when QA confirms that the condition does not permit unvalidated regulated use and that a named owner/date exists for closure.
 
 ## 7. Records generated
 

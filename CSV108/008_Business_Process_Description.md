@@ -109,7 +109,28 @@ flowchart TD
 
 Critical controls include unique identity, contemporaneous timestamps, source metadata, immutable history, reason for change, independent review, electronic-signature binding, exception queues, reconciliation and long-term availability.
 
-## 7. Related documents
+## 7. Role-based process responsibilities
+
+| Process stage | Primary role | Independent/quality check |
+|---|---|---|
+| Sample request and login | QC Sample Coordinator | Interface duplicate and completeness checks |
+| Method/specification assignment | QC Supervisor | Effective-version control and change history |
+| Test execution | Qualified Analyst | Qualification check and review of critical entries |
+| Result calculation and exception hold | QCLabOne workflow | Reviewer challenge of calculation, limits and OOS/OOT routing |
+| Review and approval | Reviewer / QC Supervisor / QA Reviewer | Segregation of duties and audit-trail review |
+| Status return and archive | System Owner / Records Management | Interface acknowledgement and retrieval verification |
+
+## 8. Key data objects and state model
+
+| Object | Key states | Control note |
+|---|---|---|
+| Sample | Created, received, in test, on hold, reviewed, approved, cancelled, archived | Status changes are timestamped, attributable and reason-controlled where required |
+| Test result | Draft, submitted, review queried, approved, invalidated, superseded | Original entries and invalidated values remain available |
+| Specification/method | Draft, approved effective, retired | Completed records retain historical effective version |
+| Interface message | Received, accepted, rejected, pending retry, reconciled | Message ID and acknowledgement prevent duplicate or lost transactions |
+| Investigation link | Created, awaiting eQMS status, closed, reopened | QCLabOne does not replace the eQMS investigation record |
+
+## 9. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

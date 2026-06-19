@@ -64,6 +64,16 @@ DEF-004 corrected a long method-name wrapping issue in one footer. The template 
 
 Controlled reports, PDF/print and ad hoc extracts are acceptable for intended use.
 
+Report verification covers both content and presentation. A report or export is unacceptable if it hides critical context, truncates values, changes rounding, omits signature/audit-review status, loses filter criteria or cannot be tied back to the source record. Any template correction requires regression of affected report types and at least one representative long-value case.
+
+| Output verification focus | Acceptance expectation |
+|---|---|
+| Source match | Values, units, limits, status and metadata match approved source record |
+| Context completeness | Method/specification version, exceptions and signatures are visible |
+| Pagination/layout | Page numbering, footer and long text do not obscure regulated content |
+| Export traceability | Requester, filters, generation time and format are retained |
+| Regression | Template fixes are retested across affected report catalogue |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

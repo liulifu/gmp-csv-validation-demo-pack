@@ -86,6 +86,16 @@ Supplier shall retain product release evidence, access/session logs, incident/ch
 
 P1 events escalate to Supplier Incident Commander, Company IT Duty Manager, System Owner and QA. Any potential data loss, unauthorised access, audit-trail failure or signature failure is treated as potential GxP impact until assessed.
 
+The agreement also requires data-return and transition assistance at termination. The supplier shall provide an export of regulated records, metadata, audit trails, attachments and configuration evidence in an agreed readable format. NovaSterile retains the right to perform or commission an audit for significant incidents, major supplier changes or repeated service failures.
+
+| Notification type | Minimum supplier notification expectation |
+|---|---|
+| Suspected GxP data loss or compromise | Immediate notification, not later than four hours after confirmation |
+| Critical security vulnerability affecting service | Within 24 hours with mitigation status and expected resolution |
+| Planned production-impacting maintenance | At least 14 days unless emergency security action is required |
+| Material product/platform change | Prior notice sufficient for site impact assessment before deployment |
+| Service termination or data-return event | Agreed transition plan, export validation and retrieval support |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

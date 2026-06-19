@@ -55,7 +55,7 @@ The project transfers the approved production service, documents, configuration,
 | L1 | Service desk | Ticket logging, triage, password/known issue routing | IT Service Desk | 24×7 P1; business hours others |
 | L2 | Application/Interface support | Application, queue, configuration, logs, restore coordination | System Owner/IT App Team | On-call P1 |
 | L3 | Supplier support | Product defect, cloud platform, code and advanced recovery | LabSphere | Per SLA |
-| Quality oversight | GxP impact, deviation/change/CAPA and release decisions | QA | On-call escalation |
+| QA | Quality oversight | GxP impact, deviation/change/CAPA and release decisions | QA | On-call escalation |
 
 ## 3. Handover items
 

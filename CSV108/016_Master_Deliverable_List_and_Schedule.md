@@ -167,6 +167,15 @@ This is the master control list for the 108 lifecycle deliverables. It is also t
 - Any real implementation shall replace status with eDMS-controlled author, reviewer, approver, effective date and signature record.
 - Combining deliverables requires a Validation Plan amendment and preserved traceability.
 
+Each deliverable has one accountable owner, one required approver and a defined predecessor/dependency. The project manager updates schedule status weekly during active validation phases and before each gate review. Quality-critical deliverables cannot be removed or combined without QA-approved rationale and traceability impact assessment.
+
+| Schedule control | Minimum content |
+|---|---|
+| Late deliverable recovery | Root cause, impact, owner, revised due date and gate impact |
+| Deliverable combination | List of merged records and confirmation that traceability remains clear |
+| Approval dependency | Named upstream record or supplier evidence required before approval |
+| Release blocker | Any missing record needed for intended use, training, migration or validated state |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

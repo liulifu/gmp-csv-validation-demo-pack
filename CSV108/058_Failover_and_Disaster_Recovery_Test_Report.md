@@ -64,6 +64,16 @@ After DR activation, users authenticated, selected signed records and audit trai
 
 The design met RPO/RTO and continuity acceptance criteria. Annual exercises remain mandatory.
 
+DR acceptance requires confirmation that the recovered service is usable for regulated work, not only technically online. Before exit, business and QA reviewers shall confirm sample retrieval, audit trail retrieval, signature visibility, interface reconciliation, backup restart, monitoring status and disposition of any manual continuity records.
+
+| DR exit check | Required evidence |
+|---|---|
+| RTO/RPO | Recovery timing and selected recovery point documented |
+| Application usability | User login and representative record retrieval successful |
+| Data integrity | Audit/signature and selected record checks pass |
+| Interface consistency | Queues and acknowledgements reconciled |
+| Continuity reconciliation | Manual forms/backlog accounted for before normal processing resumes |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

@@ -68,6 +68,16 @@ Evidence is evaluated for relevance to intended use, approved status, version ma
 
 Supplier evidence reduces duplicate testing for unchanged standard platform functions. It does not replace the company’s responsibility to define intended use, approve requirements and risk, verify site configuration/interfaces/migration, demonstrate representative business processes or accept release.
 
+Leveraged evidence shall be referenced in the RTM only when the exact version, scope, configuration relevance and execution status are clear. If supplier evidence is summary-only, not independently reviewed, executed on a different major version or lacks traceability to a site requirement, it may support rationale but shall not be used as primary verification evidence.
+
+| Supplier evidence condition | Leveraging decision |
+|---|---|
+| Same major/minor version and standard function | May support OQ coverage after relevance review |
+| Different configuration or workflow | Use for background only; perform company-controlled verification |
+| Summary evidence without objective detail | Not primary evidence; request detail or test locally |
+| Open supplier defect affects site use | Block leverage until defect disposition and regression evidence are available |
+| Security/hosting evidence | Use with site architecture, access and monitoring verification |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

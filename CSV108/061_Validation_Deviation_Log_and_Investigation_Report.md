@@ -64,6 +64,16 @@ Each deviation has defined scope, preserved original evidence, root-cause evalua
 
 Four validation deviations were closed. None involved production data or created unaddressed residual risk.
 
+Deviation closure shall show that the original protocol result was preserved and that any correction/retest was controlled. Impact assessment shall consider affected requirements, risks, scripts, test data, other executed tests, training/SOPs, migration, release readiness and the validity of supplier evidence if applicable.
+
+| Deviation closure element | Acceptance expectation |
+|---|---|
+| Event description | What happened, when, where, who detected it and affected test/record |
+| Root cause | Technical, procedural, data or execution cause identified where possible |
+| Impact assessment | Requirement/risk/test/release impact documented |
+| Correction/retest | Corrective action and approved retest or no-retest rationale retained |
+| QA closure | Independent closure confirms no unacceptable residual risk |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

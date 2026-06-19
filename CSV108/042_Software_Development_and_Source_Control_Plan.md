@@ -72,6 +72,16 @@ Input validation, idempotency, explicit error handling, least-privilege credenti
 
 SAP 2.1.0; eQMS 1.4.1; CDS 2.3.0; instrument adapters 3.6.1; archive utility 1.0.0.
 
+Custom code cannot be promoted to validation or production unless the linked requirement/design item, code review, unit evidence, dependency/security scan and release tag are complete. Emergency fixes follow the same retrospective documentation and regression requirements as configuration emergency changes.
+
+| Development control | Minimum evidence |
+|---|---|
+| Work item linkage | Approved requirement, defect or change record |
+| Code review | Independent reviewer, comments resolved and approval retained |
+| Automated checks | Unit tests, static analysis, dependency and secrets scan |
+| Release package | Signed/immutable tag, build artifact checksum and deployment notes |
+| Rollback | Prior version and rollback decision criteria documented |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

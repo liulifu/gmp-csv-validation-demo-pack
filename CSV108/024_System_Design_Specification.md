@@ -95,6 +95,16 @@ Authentication is federated; authorization is role-based. Service accounts are n
 
 The application runs on redundant nodes. Database replication and 15-minute RPO controls support DR. Gateway queues persist across restart. Monitoring covers availability, backlog, failed messages, certificate expiry, backup and time synchronization.
 
+Design review shall confirm that GxP functions remain explainable to business and QA reviewers. Critical design decisions shall identify the affected requirement/risk, the selected design, rejected alternatives where material, validation evidence and operational monitoring needed to maintain the design in the validated state.
+
+| Design review focus | Evidence expectation |
+|---|---|
+| Record integrity | Immutable history, version binding and protected audit storage are described |
+| Interface reliability | Retry, duplicate prevention, reconciliation and error ownership are described |
+| Security model | Identity, roles, service accounts, secrets and privileged access are bounded |
+| Operational support | Monitoring, alerting, backup/restore and DR responsibilities are assigned |
+| Maintainability | Configuration and release packages can be promoted and verified without uncontrolled change |
+
 ## 8. Related documents
 
 | Relationship | Document ID | Document |

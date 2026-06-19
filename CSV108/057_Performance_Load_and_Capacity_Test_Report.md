@@ -64,6 +64,16 @@ The initial stability dashboard response was 3.8 seconds at peak load. A databas
 
 Performance and capacity meet the approved release criteria.
 
+Performance acceptance applies to the tested workload model and release baseline. If user concurrency, interface volume, attachment growth, report complexity or infrastructure sizing materially changes, the System Owner shall assess whether capacity modelling or regression load testing is required. Performance fixes that change query logic, cache behavior or indexing require regression consideration for data correctness and auditability.
+
+| Performance evidence | Acceptance expectation |
+|---|---|
+| Workload model | Concurrent users, transaction mix and data volume are defined |
+| Response time | Critical workflows meet approved percentile targets |
+| Interface throughput | Backlog clears within operational tolerance |
+| Capacity forecast | Headroom and alert thresholds support five-year projection |
+| Deviation impact | Performance fixes do not alter regulated calculations or records |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

@@ -62,6 +62,16 @@ This log records validation defects, resolution, retest and closure.
 
 Six defects were identified: zero Critical/High, three Medium and three Low. All were corrected and retested before release. No repeated systemic failure remained.
 
+Defect closure requires root cause, affected requirement/test, correction, regression or no-regression rationale, retest evidence and QA disposition where GxP impact is possible. A defect is release blocking when it prevents intended use, compromises data integrity, prevents inspection retrieval, creates an incorrect quality decision or invalidates a required control.
+
+| Defect decision point | Required disposition |
+|---|---|
+| Critical/High defect | Release blocked until corrected or formally risk accepted by QA leadership |
+| Medium defect | Corrected or residual risk accepted with workaround and owner |
+| Low defect | Corrected or accepted with no GxP/data-integrity impact |
+| Repeated defect theme | Trend/root-cause review and CAPA consideration |
+| Retest evidence | Original failure, correction and passing evidence remain linked |
+
 ## 4. Related documents
 
 | Relationship | Document ID | Document |

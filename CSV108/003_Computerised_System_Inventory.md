@@ -68,9 +68,13 @@ A component is included when it creates, modifies, calculates, transmits, approv
 | SYS-011 | Laboratory Balances/pH/TOC Interfaces | 24 devices, model list in ICS | Instrument interfaces | QC laboratories | High | QC Instrument Owner | Qualified/interface tested |
 | SYS-012 | Barcode Printers and Scanners | 18 printers, 42 scanners | Peripheral devices | QC laboratories | Medium | QC Operations Owner | Verified |
 
+The controlled eQMS inventory record also maintains the supplier, business-process owner, technical owner, data owner, validation package location, official-record status, critical data handled, interfaces, hosting region, RTO/RPO tier, backup owner, last review date, next review date and retirement trigger. These attributes are not repeated in full in this project extract but are required for operational control.
+
 ## 4. Review and maintenance
 
 The System Owner shall update the inventory after implementation, version change, hosting change, new interface, change of intended use, ownership transfer, periodic review or retirement. The next formal review for high-impact entries is due 2028-03-15 unless an earlier trigger occurs.
+
+Inventory updates are quality-impact assessed before approval. A new or changed entry shall not be marked "validated" unless the validation package, release approval, effective SOPs, trained users and operational support model are available. Retired systems remain listed until records are no longer required or are transferred to an approved archive with retrieval evidence.
 
 ## 5. Key decisions
 
@@ -80,7 +84,17 @@ The System Owner shall update the inventory after implementation, version change
 - Excel registers are assessed individually; no blanket “medium” classification is permitted.
 - Identity and backup platforms are supporting infrastructure but are included because failure could compromise high-impact applications.
 
-## 6. Related documents
+## 6. Inventory control checks
+
+| Check | Acceptance expectation |
+|---|---|
+| Ownership | Each GxP entry has one accountable System Owner and one Process Owner or Data Owner |
+| Validation state | Lifecycle state matches the approved validation/release/retirement evidence |
+| Interface completeness | All GxP data exchanges are represented in the interface specification or formally excluded |
+| Review timeliness | High-impact entries are reviewed at least annually or after a significant trigger |
+| Archive linkage | Retired or read-only systems identify the archive location and retrievability evidence |
+
+## 7. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

@@ -72,6 +72,16 @@ Critical—credible patient/product/data loss risk and no workaround; High—maj
 
 Entry: approved URS/design/FRA/scripts, stable build, trained testers and controlled data. Exit: all required tests executed, no open Critical/High item, Medium items resolved or accepted, traceability complete and test summary approved.
 
+Scripted tests are required where objective acceptance criteria, high-risk controls or regulated calculations/interfaces are involved. Unscripted exploratory or business-observation testing may support usability and process fit only when scope, tester, data, observation and conclusion are recorded. Failed expected results shall not be overwritten by informal retest.
+
+| Test governance rule | Required practice |
+|---|---|
+| Pre-approved script | Objective steps, expected result and evidence type defined before execution |
+| Tester independence | Reviewer/approver independence maintained where required by risk |
+| Test data control | Synthetic or approved masked data identified and retained |
+| Retest | Links original failure, correction, impact and passing evidence |
+| Evidence legibility | Screenshots/logs show system, environment, record and timestamp where practical |
+
 ## 7. Related documents
 
 | Relationship | Document ID | Document |

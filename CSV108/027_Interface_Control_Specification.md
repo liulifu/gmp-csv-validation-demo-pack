@@ -80,6 +80,16 @@ This specification defines interface ownership, protocol, data content, validati
 | recordUrl | SourceRecord.Link | HTTPS stable link; authorised users only |
 | status | SourceRecord.Status | Only APPROVED accepted |
 
+Interface acceptance requires positive, negative and recovery scenarios. Each interface shall demonstrate normal processing, duplicate prevention, schema rejection, business-rule rejection, retry/reprocess behavior, reconciliation and auditability of manual intervention. Any manual correction to an interface message requires reason, owner and independent review.
+
+| Interface control | Required verification |
+|---|---|
+| Idempotency | Duplicate business key/message ID does not create duplicate regulated record |
+| Rejection handling | Invalid schema/unit/context is quarantined with actionable error |
+| Reprocessing | Authorised user can reprocess only after documented disposition |
+| Reconciliation | Source/target counts and outstanding messages are reviewed |
+| Source traceability | Accepted record retains source ID, timestamp and source-system context |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

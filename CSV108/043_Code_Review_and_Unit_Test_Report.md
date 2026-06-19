@@ -84,6 +84,16 @@ No critical/high static-analysis issue or known critical vulnerability remained 
 
 Custom code is acceptable for FAT/SAT and formal interface verification. All identified issues are traceable in the defect log.
 
+Code review acceptance confirms technical readiness only; it does not replace FAT, SAT, interface testing or company validation. Any unit-test gap affecting a high-risk mapping, calculation, retry/idempotency rule or security control shall be justified by an alternate test or corrected before release to formal validation.
+
+| Review area | Evidence retained |
+|---|---|
+| Traceability | Code change links to approved requirement/design/change |
+| Unit coverage | Positive, negative, boundary and error-path tests for critical logic |
+| Security | Secrets, dependency and input-validation checks completed |
+| Defect linkage | Review findings and unit failures linked to defect log |
+| Release readiness | Build/tag/checksum match the package used in FAT/SAT |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

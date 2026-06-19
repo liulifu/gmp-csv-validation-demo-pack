@@ -85,7 +85,27 @@ It supports quality-control evidence used for material disposition, batch-releas
 
 The system is fit for intended use when the 72 approved URS are traced to risk controls and passing verification; migration and archive criteria are met; procedures/training are effective; production configuration is baselined; and the VSR confirms no unacceptable residual risk.
 
-## 6. Related documents
+## 6. Misuse scenarios and required controls
+
+| Potential misuse | Control expectation |
+|---|---|
+| Using QCLabOne as the official CDS raw-data repository | CDS source-link rules, user training and review checks confirm raw data remain in ChromLink |
+| Using unapproved spreadsheet calculations for final results | Controlled calculation rules, access restrictions and periodic spreadsheet remediation review |
+| Granting administrator access to routine approvers | Role matrix, segregation-of-duties review and privileged access monitoring |
+| Correcting signed records without invalidating approval | Workflow rule requires reason, audit trail, re-review and new electronic signature |
+| Continuing manual contingency after interface restoration | Reconciliation and supervisor/QA review before closure of the outage record |
+
+## 7. Intended-use traceability anchors
+
+| Intended-use element | Downstream evidence |
+|---|---|
+| Sample lifecycle control | URS sample management requirements, PQ end-to-end sample scenarios and SOP training |
+| Electronic laboratory execution | LES configuration, OQ challenge scripts, audit trail and e-signature tests |
+| Calculation and limit evaluation | Report/calculation specification, independent verification and regression testing |
+| Regulated review and approval | Role/access matrix, workflow tests and reviewer training records |
+| Inspection retrieval | Archive/export specification, retrieval tests and periodic archive review |
+
+## 8. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

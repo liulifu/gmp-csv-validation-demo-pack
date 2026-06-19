@@ -67,6 +67,16 @@ No shared interactive account was enabled. Two break-glass accounts were sealed,
 
 The approved access model satisfies the security and SoD requirements. Routine operation requires the access-request and review processes in Documents 078–080.
 
+Security testing shall include negative evidence, not only successful access. The test package shall demonstrate that users cannot perform prohibited actions, excessive privilege is blocked, administrator roles cannot approve routine QC results, vendor access is time limited, and disabled users/service accounts behave as expected.
+
+| Security test focus | Acceptance expectation |
+|---|---|
+| Positive role access | Role can perform authorised tasks needed for intended use |
+| Negative role access | Role is blocked from prohibited workflow/configuration actions |
+| Segregation of duties | Creator/executor/reviewer/approver conflicts are prevented or detected |
+| Privileged access | Admin/vendor/break-glass use is logged and reviewable |
+| Leaver/disabled user | Account cannot authenticate or sign after disablement |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

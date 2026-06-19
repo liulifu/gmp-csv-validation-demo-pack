@@ -77,6 +77,16 @@ The supplier is classified **Critical GxP Service Provider** because it hosts th
 4. documented change/security incident notifications;
 5. annual supplier performance review.
 
+Supplier qualification remains valid only for the assessed product version, hosting model and service scope. Material supplier changes, major platform upgrade, unresolved critical security issue, ownership change or repeated SLA failure shall trigger requalification or enhanced oversight. Supplier-provided validation evidence is accepted only after relevance and independence are assessed in the leveraging record.
+
+| Ongoing oversight trigger | Required action |
+|---|---|
+| Major release or architecture change | Supplier change impact assessment and regression strategy |
+| Critical/high security notification | GxP and data-integrity impact assessment within the agreed SLA |
+| Repeated SLA miss | Supplier performance review and corrective action |
+| Audit CAPA overdue | QA escalation and decision on validation/release impact |
+| Support model change | Update quality/technical agreement and contact matrix |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

@@ -75,6 +75,16 @@ Automated jobs are monitored daily. Failed jobs alert IT and supplier support. A
 
 Technical restore at least annually and after major architecture change; application-level restore included in DR exercise. Archive secondary-copy retrieval is tested annually.
 
+Restore evidence shall prove business usability, not only infrastructure success. The restore report shall include selected sample records, attachments, audit trails, signature manifestations, configuration baseline, interface status and user-access checks. If ransomware or destructive change is suspected, restoration shall use a clean recovery point and preserve forensic evidence before reconnecting interfaces.
+
+| Restore evidence area | Acceptance expectation |
+|---|---|
+| Data completeness | Selected records, attachments and metadata are retrievable |
+| Audit/signature integrity | Audit trail and signature meaning remain readable and linked |
+| Configuration | Restored baseline matches approved configuration/version record |
+| Interface consistency | Queues, acknowledgements and outstanding messages are reconciled |
+| Return to service | Business owner, IT and QA approve readiness or document exception |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

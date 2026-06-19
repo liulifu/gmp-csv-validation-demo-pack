@@ -80,6 +80,16 @@ A reason is mandatory for changes to results, specification/method/limit, formul
 
 Audit data is retained at least as long as the associated record. Exports show filters, execution time and requester and are verified against on-screen source.
 
+Critical audit events shall be reviewable without database access or supplier assistance. Review filters must allow business reviewers to locate changes by record, user, event type, time range and reason. Attempted prohibited actions, failed login bursts, privilege changes, time changes and interface reprocessing shall be visible for periodic trend review.
+
+| Audit-trail review need | Required capability |
+|---|---|
+| Record approval review | Display critical changes, reasons and prior/new values for the record |
+| Privileged activity review | Show admin/vendor actions, target object and session context |
+| Interface exception review | Show reprocess action, reason, original message and outcome |
+| Trend review | Export events with filters and reviewer decision retained |
+| Inspection retrieval | Produce human-readable copy tied to the associated regulated record |
+
 ## 7. Related documents
 
 | Relationship | Document ID | Document |

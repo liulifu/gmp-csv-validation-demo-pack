@@ -85,6 +85,16 @@ Shared accounts are prohibited. Service accounts are non-interactive and owned. 
 
 All active accounts and roles quarterly; privileged accounts monthly; service accounts semi-annually; immediate disablement upon termination and within one business day for role transfer unless risk requires faster action.
 
+Joiner/mover/leaver controls shall demonstrate that access is approved before use, changed when job responsibility changes, and removed promptly when no longer needed. Review evidence shall include user, role, business justification, approver, reviewer decision, remediation action and closure date. Any unresolved segregation-of-duties conflict requires documented compensating control and QA acknowledgement.
+
+| Access-control event | Required evidence |
+|---|---|
+| New user | Approved request, training completion and role assignment |
+| Role change | Business justification, prior role removal and new-role approval |
+| Privileged access | Time-bound approval, activity log and post-use review |
+| Vendor access | Support window, session purpose, monitoring and disablement evidence |
+| Periodic review | Reviewer decision, removals/changes and overdue-action closure |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

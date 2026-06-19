@@ -83,6 +83,16 @@ Sample records, LES worksheets, calculated results, review/approval records, aud
 
 No compliance gap remains after closure of DEV-001. Site-specific legal certification of electronic signatures to FDA, if required by company regulatory policy, is outside this project document and shall be handled by Regulatory Affairs.
 
+The compliance conclusion depends on the controls being implemented as approved in the released production baseline. Any later change to authentication, signature meaning, audit-trail configuration, record export, archive retention, supplier hosting or privileged access shall trigger Part 11/Annex 11 impact review before production deployment.
+
+| Control dependency | Verification or operating evidence |
+|---|---|
+| Closed system access | Security/access test, access request records and periodic review |
+| Electronic signature uniqueness | Identity proofing, user acknowledgement and re-authentication test |
+| Signature manifestation | Screen/report verification showing signer, date/time and meaning |
+| Audit trail protection | Challenge test, review SOP and privileged-access restriction |
+| Accurate copies | PDF/export verification and archive retrieval challenge |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

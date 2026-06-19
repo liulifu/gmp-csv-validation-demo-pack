@@ -70,6 +70,16 @@ Draft → review → approved/effective → superseded/obsolete. Historical vers
 
 Specifications, methods and calculations are reviewed through their scientific document lifecycle. Reagent/standard and instrument status is monitored daily. Roles and controlled reasons are reviewed quarterly/annually as defined in SOPs.
 
+Master data are not considered effective until approval, effective dating, access restriction and verification are complete. Bulk changes require pre-load review, validation-rule results, exception disposition and post-load reconciliation. Emergency master-data correction may be performed only under approved deviation/change control with subsequent independent verification.
+
+| Master-data control | Acceptance expectation |
+|---|---|
+| Effective dating | New version applies prospectively and completed records retain historical version |
+| Approval segregation | Creator cannot be sole approver of critical master data |
+| Bulk load | Approved template, validation results and reconciliation are retained |
+| Periodic review | Outdated, duplicate or unused entries are dispositioned |
+| Emergency correction | Reason, impact, approver and verification evidence are recorded |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

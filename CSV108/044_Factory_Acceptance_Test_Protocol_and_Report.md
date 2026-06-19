@@ -72,6 +72,16 @@ DEF-003 and DEF-004 were identified, corrected and retested. One audit-trail con
 
 All FAT cases passed or were closed through controlled retest. Signed build packages and the FAT evidence were released for site installation/SAT.
 
+FAT confirms supplier build readiness and selected standard/configured functions; it does not establish site release. Any FAT evidence used later shall retain environment, build version, tester, objective evidence and defect/retest reference. Site-specific workflows, roles, interfaces, migration, audit-trail classification and business PQ remain subject to company-controlled verification.
+
+| FAT evidence limit | Required follow-up |
+|---|---|
+| Supplier environment | Repeat site installation/SAT checks after deployment |
+| Standard product function | Confirm relevance through leveraging assessment |
+| Site configuration not final | Verify final configuration in OQ/PQ |
+| Finding corrected during FAT | Retain fix, regression and retest evidence |
+| Observation transferred | Track into site test or risk record with owner |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

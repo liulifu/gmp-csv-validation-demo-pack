@@ -64,6 +64,16 @@ Database restore completed in 2 h 18 min; application validation and reconciliat
 
 Backup and restore controls meet approved requirements. Routine monitoring and annual restore tests are required in operation.
 
+The restore conclusion is based on both infrastructure recovery and application-level usability. Evidence demonstrates that restored records, attachments, audit trails, signatures, configuration and access controls remained intact. Future restore tests shall include at least one closed sample, one signed record, one attachment, one audit trail and one interface status check.
+
+| Restore test evidence | Result expectation |
+|---|---|
+| Recovery point | Selected point is within approved RPO |
+| Business record retrieval | Sample/result/attachment can be opened and compared |
+| Audit/signature integrity | Audit trail and signature manifestation remain linked |
+| Configuration/access | Restored environment uses approved baseline and restricted access |
+| Monitoring restart | Backup/monitoring jobs resume or exception is documented |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

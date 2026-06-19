@@ -84,6 +84,16 @@ Approved build record, configuration-item register, architecture design, supplie
 
 No IQ deviation remained open. DEF-006 had already been corrected during SAT. All 15 IQ cases passed; installation is acceptable for OQ/PQ.
 
+IQ acceptance is limited to installation, environment segregation, baseline verification and supporting infrastructure readiness. Functional suitability remains covered by OQ/PQ. The IQ evidence package shall allow a reviewer to identify the exact environment, installed version, checksum, configuration package, qualified infrastructure services and any dependency that was leveraged rather than retested.
+
+| IQ evidence check | Acceptance expectation |
+|---|---|
+| Environment identity | Tenant/server/environment name is visible in evidence |
+| Version/baseline | Installed version and checksum match approved build/configuration records |
+| Infrastructure dependency | Backup, monitoring, time sync, logging and security controls are active |
+| Segregation | Validation/training/production environments are separated |
+| Exception closure | Build or installation exceptions are closed or impact-assessed |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

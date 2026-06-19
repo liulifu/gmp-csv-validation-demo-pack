@@ -74,6 +74,16 @@ One printer had an obsolete driver (DEF-006). The approved driver was installed 
 
 The site environment met SAT exit criteria and was released to formal qualification/validation testing.
 
+SAT release confirms that the installed site environment is stable enough for formal testing. It does not approve production use or close validation requirements. Any difference between FAT build, installed build and SAT-accepted build shall be reflected in the configuration item register and test impact assessment.
+
+| SAT readiness area | Acceptance expectation |
+|---|---|
+| Environment | Correct tenant/server, network, monitoring and backup inclusion |
+| Device/interface connectivity | Site devices and endpoints communicate using approved settings |
+| Configuration import | Baseline package imported and smoke tested |
+| Evidence control | Screenshots/logs identify environment, date/time and tester |
+| Open issue | Defect/deviation has severity, owner, due date and retest plan |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

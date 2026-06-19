@@ -166,6 +166,16 @@ This catalogue is the controlled index of formal test scripts and test data used
 
 Scripts are version 1.0 unless the deviation/retest record identifies a controlled revision. Final executed evidence remains in the eDMS and is referenced by the same Test ID.
 
+Test scripts and test data shall remain traceable as a pair. When test data are reused, the script shall identify the starting state and expected ending state. Any data setup performed outside the script shall be recorded as a prerequisite with preparer, reviewer and evidence reference.
+
+| Script catalogue control | Acceptance expectation |
+|---|---|
+| Script version | Approved version is identified before execution |
+| Data set | Synthetic/approved data ID, source and reset rule are defined |
+| Prerequisite setup | Setup evidence is retained or linked |
+| Evidence location | eDMS reference supports later RTM/VSR review |
+| Retest script | Original failure and approved retest scope are traceable |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

@@ -72,6 +72,16 @@ Users confirmed the workflow was understandable, source records were accessible,
 
 All 12 PQ/UAT scenarios passed. Business Process Owner accepts the system for the approved intended use, subject to completion of release prerequisites and VSR approval.
 
+PQ/UAT acceptance is based on representative users performing representative business processes with approved procedures and realistic controlled data. Acceptance does not authorise production use until migration, training, support readiness, VSR and go-live approval are complete. Usability observations shall be dispositioned when they could affect data entry, review effectiveness or exception handling.
+
+| PQ acceptance focus | Evidence expectation |
+|---|---|
+| Representative role | Qualified analyst/reviewer/supervisor/QA user executes assigned scenario |
+| End-to-end process | Sample, execution, review, approval, interface and report flow are covered |
+| Procedure fit | User can follow draft/final SOP without undocumented workaround |
+| Exception visibility | OOS/OOT, retest, manual entry or interface issue is visible and controlled |
+| Business acceptance | BPO records acceptance and any residual open item |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |

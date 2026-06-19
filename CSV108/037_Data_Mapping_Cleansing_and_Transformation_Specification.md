@@ -79,6 +79,16 @@ Unsupported filename characters are replaced with `_` for the target storage nam
 
 Mapping version `MAP-2.3` is the production-approved baseline. Changes after trial migration 2 require migration change control and repeat of affected reconciliation tests.
 
+Mapping rules shall preserve meaning, provenance and auditability. Any transformation that changes format, code, unit, identifier, relationship or status requires business-owner approval and test evidence. Data that cannot be transformed without changing regulated meaning shall be excluded from migration and retained in the approved archive with documented retrieval path.
+
+| Mapping control | Required review |
+|---|---|
+| Code translation | Source/target code list, retired code handling and owner approval |
+| Unit conversion | Scientific rationale, precision/rounding rule and independent check |
+| Relationship mapping | Parent/child linkage and orphan handling verified |
+| Exclusion rule | Business/QA approval and archive/retrieval reference |
+| Mapping version change | Impacted fields, repeat-test scope and approval recorded |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

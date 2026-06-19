@@ -95,6 +95,16 @@ Audit trail-specific configuration failure was managed under DEV-001 and reteste
 
 All planned OQ cases passed after controlled correction/retest. Configured functions are suitable to proceed to PQ/UAT.
 
+OQ acceptance confirms that configured controls operate as specified under normal, boundary and negative conditions. It does not replace business-process acceptance in PQ. Any OQ test that relied on supplier evidence shall retain the leveraging rationale and demonstrate that the final site configuration was challenged where it affects intended use.
+
+| OQ coverage area | Evidence expectation |
+|---|---|
+| Configured workflow | Approved states, prerequisites and blocked actions are challenged |
+| Calculation/report logic | Boundary, invalid input and expected output are verified |
+| Security/audit/e-signature | Positive and negative controls are tested |
+| Interface behavior | Error handling and reconciliation are included or linked |
+| Retest | Failed result, fix, impact and passing retest remain traceable |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

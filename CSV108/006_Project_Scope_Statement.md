@@ -84,6 +84,8 @@ Sample Management; Specification and Method Management; LES; Calculation Engine;
 
 Analytical method validation; method transfer; core SAP/eQMS/CDS revalidation; replacement of laboratory instrument firmware; global multi-site rollout; mobile offline execution; product batch release decision in SAP; CAPA workflow design in eQMS.
 
+Out-of-scope items are excluded because they are controlled by separate validated systems, separate GMP processes or future project charters. Each exclusion is valid only if the boundary control remains effective; for example, CDS raw data remains controlled in ChromLink, SAP final batch release remains controlled in SAP, and eQMS investigation records remain controlled in QualiTrack.
+
 ## 7. Assumptions and constraints
 
 - Production is a dedicated vendor tenant in China East; no personal health data is stored.
@@ -92,7 +94,17 @@ Analytical method validation; method transfer; core SAP/eQMS/CDS revalidation; r
 - Legacy LIMS remains read-only and backed up until retirement approval.
 - Any proposed scope change requires change control and impact assessment.
 
-## 8. Related documents
+## 8. Environment and responsibility boundaries
+
+| Boundary | Included | Excluded or leveraged |
+|---|---|---|
+| Development/test tenant | Configuration build, supplier dry runs, interface trials and validation test execution | Production GMP record creation |
+| Production tenant | Approved configuration, live records, operational monitoring and support | Unapproved configuration changes or uncontrolled test data |
+| Corporate infrastructure | Identity, network, backup, monitoring and security controls supporting QCLabOne | Core corporate service revalidation unless impacted by this project |
+| Supplier cloud operations | Hosting, platform maintenance, security notification and service availability | Site GxP acceptance and release decision |
+| Legacy LIMS | Read-only access, migration, archive and retirement controls | New GMP result entry after QCLabOne go-live |
+
+## 9. Related documents
 
 | Relationship | Document ID | Document |
 |---|---|---|

@@ -51,7 +51,7 @@ This assessment evaluates the complete data lifecycle using ALCOA+ principles: a
 
 | ID | Data | Lifecycle stage | Failure mode | ALCOA+ | Controls | Residual risk |
 |---|---|---|---|---|---|---|
-| DIRA-01 | SAP sample request | Creation/transmission | Incorrect source data or duplicate message | C | A,C | Unique message ID, validation, exception queue, reconciliation | Medium |
+| DIRA-01 | SAP sample request | Creation/transmission | Incorrect source data or duplicate message | C,A | Unique message ID, validation, exception queue, reconciliation | Medium |
 | DIRA-02 | Sample ID/barcode | Creation/printing | Duplicate or mis-associated identity | A,C,O | Unique sequence, barcode verification, chain-of-custody | Low |
 | DIRA-03 | Sample receipt record | Creation/modification | Backdating or incomplete receipt information | A,C,Cont | Mandatory fields, timestamp, audit trail, reason for change | Low |
 | DIRA-04 | Specification/method version | Master data lifecycle | Obsolete version used or history overwritten | O,A,C,E | Approval/effective date, immutable history, change control | Medium |
@@ -84,6 +84,16 @@ This assessment evaluates the complete data lifecycle using ALCOA+ principles: a
 ## 4. Review frequency decisions
 
 Critical result/specification/formula/role/signature audit trails are reviewed as part of record approval or defined periodic review. Privileged access and role changes are reviewed monthly; system-wide audit-trail trend review is quarterly.
+
+Data-integrity controls are considered effective only when the owner can demonstrate both prevention and detection. Automated controls require configuration or test evidence. Procedural controls require approved SOP steps, trained users and review records. Hybrid/manual controls require reconciliation evidence showing that the electronic record and the controlled original remain linked.
+
+| Data-integrity control type | Required effectiveness evidence |
+|---|---|
+| Preventive system control | Configuration baseline, negative test or workflow challenge |
+| Detective review control | Review record, exception criteria and documented reviewer independence |
+| Interface reconciliation | Source/target counts, rejected-message log and final disposition |
+| Migration/archival control | Field checks, attachment/hash checks and retrievability sample |
+| Manual contingency control | Controlled form, supervisor verification and post-recovery reconciliation |
 
 ## 5. Related documents
 

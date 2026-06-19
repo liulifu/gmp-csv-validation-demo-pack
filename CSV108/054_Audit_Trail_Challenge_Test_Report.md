@@ -69,6 +69,16 @@ Reviewers successfully filtered by record, user, date, event type and changed fi
 
 Audit-trail controls are acceptable for intended use and operational review.
 
+Audit-trail test acceptance depends on review usability as well as event capture. For each critical event type, the reviewer must be able to see who did what, when, why where required, prior value, new value, affected record and whether a downstream review/signature was invalidated. Exported audit evidence shall remain complete enough for inspection use.
+
+| Audit challenge focus | Acceptance expectation |
+|---|---|
+| Critical event capture | Creation/change/delete attempt/configuration/security/signature events recorded |
+| Reason for change | Mandatory reason enforced for site-defined critical metadata |
+| Review filters | Reviewer can locate event by record, user, field, event type and time |
+| Protection | Routine/admin users cannot edit or delete audit entries |
+| Export fidelity | Export shows filter, time, requester and complete event context |
+
 ## 6. Related documents
 
 | Relationship | Document ID | Document |

@@ -64,6 +64,16 @@ The training package includes user acknowledgement that electronic signatures ar
 
 Signature uniqueness, manifestation, authentication and record binding meet the approved requirements.
 
+Electronic-signature test acceptance requires demonstration of both valid signing and blocked invalid signing. Evidence shall show the record before signature, signature prompt/meaning, manifestation after signing, failed credential/session reuse behavior and post-signature change behavior. Signature-related failures are evaluated as data-integrity risks until resolved.
+
+| Signature test focus | Acceptance expectation |
+|---|---|
+| Valid signature | Correct user, meaning, timestamp and record/version binding shown |
+| Re-authentication | Credential or strong authentication challenge occurs at signing |
+| Invalid attempt | Wrong credential/session reuse fails and is logged |
+| Post-signature change | Approval invalidates or re-routes according to workflow rule |
+| Printed/electronic view | Manifestation is visible on screen/report/export |
+
 ## 5. Related documents
 
 | Relationship | Document ID | Document |
